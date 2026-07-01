@@ -176,7 +176,12 @@
 .bb-nav a:hover, .bb-nav a.active { color: var(--bb-text); }
 
 .bb-main { flex: 1; padding: 4rem 0; }
-.bb-content-area { display: grid; grid-template-columns: 1fr 340px; gap: 4rem; }
+.bb-header-left { display: flex; align-items: center; gap: 1rem; }
+.bb-sidebar-trigger { color: var(--bb-text-light); }
+.bb-sidebar-trigger:hover { color: var(--bb-text); }
+.bb-shadcn-sidebar { --sidebar: var(--bb-white); --sidebar-foreground: var(--bb-text); --sidebar-border: var(--bb-border); font-family: var(--bb-font-serif); }
+.bb-sidebar-content { padding: 1.5rem; gap: 2rem; }
+.bb-sidebar-content .bb-widget-title { height: auto; padding: 0 0 .5rem; margin: 0 0 1rem; font-family: var(--bb-font-sans); font-size: 12px; text-transform: uppercase; letter-spacing: 2px; color: var(--bb-text-light); border-bottom: 1px solid var(--bb-border); }
 
 .bb-posts-grid { display: grid; gap: 3rem; }
 .bb-card { background: var(--bb-white); padding: 2rem; border-radius: 4px; transition: box-shadow .3s; }

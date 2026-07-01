@@ -22,3 +22,13 @@ a {
 a:hover {
   text-decoration: underline;
 }
+body {
+  font-family: Georgia, serif;
+  background: #f4f1ea;
+  color: #1a1a1a;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: 1px;
+}

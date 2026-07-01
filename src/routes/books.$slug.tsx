@@ -57,7 +57,7 @@ function BookPage() {
         <h1 className="bb-title">{book.title}</h1>
         <p className="bb-author">{book.author}</p>
         <div className="bb-post-content">
-          {book.content.map((p, i) => (
+          {book.content.map((p: string, i: number) => (
             <p key={i}>{p}</p>
           ))}
         </div>
